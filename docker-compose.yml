@@ -26,7 +26,7 @@ services:
     depends_on:
       - db
     environment:
-      - RAILS_ENV=developmen
+      - RAILS_ENV=development
 
 volumes:
   bundle:
